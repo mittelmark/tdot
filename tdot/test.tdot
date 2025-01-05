@@ -1,0 +1,6 @@
+tdot set code ""
+tdot graph margin=0.0
+tdot node A label="Hello World!\ntdot" \
+      shape=box fillcolor=skyblue style=filled
+
+
