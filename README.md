@@ -1,5 +1,12 @@
 # tdot
 
+[![license](https://img.shields.io/badge/license-BSD-lightgray.svg)](https://opensource.org/license/bsd)
+[![Release](https://img.shields.io/github/v/release/mittelmark/tdot.svg?label=current+release)](https://github.com/mittelmark/tdot/releases)
+![Downloads](https://img.shields.io/github/downloads/mittelmark/tdot/total)
+![Commits](https://img.shields.io/github/commits-since/mittelmark/tdot/latest)
+[![Manual](https://img.shields.io/badge/Docu-blue)](http://htmlpreview.github.io/?https://github.com/mittelmark/mkdoc/blob/master/tdot/tdot/tdot.html)
+[![Wiki](https://img.shields.io/badge/Wiki-blue)](https://wiki.tcl-lang.org/page/tdot)
+
 Tcl/Tk  package and  application  to create  GraphViz  diagrams using Tcl like
 syntax.
 
