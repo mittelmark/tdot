@@ -3,6 +3,26 @@
 Tcl/Tk  package and  application  to create  GraphViz  diagrams using Tcl like
 syntax.
 
+## Example 
+
+```tcl
+package require tdot
+tdot set code ""
+tdot graph margin=0.4
+tdot node style=filled fillcolor=grey80 width=1.2 height=0.7
+tdot block rank=same E D C F G 
+tdot addEdge A -> B label=" connects"
+tdot addEdge B -> C 
+tdot addEdge B -> D
+tdot addEdge D -> E
+tdot node A label="Hello" style=filled fillcolor=salmon width=2 height=1
+tdot node B label="World!" style=filled shape=box fillcolor=skyblue width=2 height=0.8
+tdot addEdge C -> F -> G
+tdot write tdot-demo.svg
+```
+
+![](assets/tdot-demo.svg)
+
 ## Links
 
 - [Manual](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mittelmark/tdot/master/tdot/tdot.html)
