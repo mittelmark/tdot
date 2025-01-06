@@ -4,7 +4,7 @@
 #  Author        : Dr. Detlef Groth
 #  Created By    : Dr. Detlef Groth
 #  Created       : Fri Sep 3 04:27:29 2021
-#  Last Modified : <250105.1220>
+#  Last Modified : <250106.0944>
 #
 #  Description	 : Literate programming with Tcl/Tk with in Markdown 
 #                  embedded Tcl code
@@ -27,7 +27,7 @@ package provide tdot 0.4.0
 #' ---
 #' author: Detlef Groth, University of Potsdam, Germany
 #' title: tdot package documentation 0.4.0
-#' date: 2025-01-05
+#' date: 2025-01-06
 #' ---
 #' 
 #' ## NAME 
